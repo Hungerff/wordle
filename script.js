@@ -1,4 +1,4 @@
-const CORRECT_WORD = 'WARDLE';
+const CORRECT_WORD = 'MONEY';
 
 const gameState = {
     currentRow: 0,
