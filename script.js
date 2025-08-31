@@ -1,4 +1,4 @@
-const CORRECT_WORD = 'ELATE';
+const CORRECT_WORD = 'PETAL';
 
 const gameState = {
     currentRow: 0,
