@@ -68,11 +68,21 @@
                     <button data-key="BACKSPACE" class="wide">⌫</button>
                 </div>
             </div>
-            
             <button id="reset-btn">NEW GAME</button>
+            <button id="custom-word-btn" class="custom-word-btn">Custom Word</button>
         </main>
     </div>
-    
+    <div id="custom-word-modal" class="custom-word-modal">
+        <div class="modal-content">
+            <h3>Set Custom Word</h3>
+            <p>Enter a 5-letter word:</p>
+            <input type="text" id="custom-word-input" maxlength="5" placeholder="WORD">
+            <div class="modal-buttons">
+                <button id="set-word-btn" class="set-word-btn">Set Word</button>
+                <button id="cancel-word-btn" class="cancel-word-btn">Cancel</button>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
